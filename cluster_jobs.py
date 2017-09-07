@@ -33,7 +33,7 @@ def writePBS (run):
 	f.write('#!/bin/bash\n')
 	f.write('\n')
 	f.write('# job name:\n')
-	f.write('#PBS -N project_run_' + run\n')
+	f.write('#PBS -N project_run_' + run + '\n')
 	f.write('\n')
 	f.write('# maximum wall time for the job\n')
 	f.write('#PBS -l walltime=15:00:00' + '\n')
